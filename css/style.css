@@ -1,0 +1,135 @@
+
+ 
+ .option-side{
+  width: 250px;
+    display: flex;
+    
+
+
+ }
+
+ .options{
+  left: -250px;
+ }
+ .logo{
+  width: 60px;
+ }
+ 
+ 
+ .logo img{
+    width: 40px;
+ }
+ .options{
+  z-index: 999999999;
+
+    display: flex;
+    
+    
+ }
+ /* .allSide{
+    position: fixed;
+    top: 0;
+    left: 0;
+ } */
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ ul li {
+    list-style: none;
+    margin: 5px ;
+    padding: 5px;
+ }
+
+ .icon-side{
+    bottom: 5px;
+ }
+ *  
+  .Dnone{
+    display: none;
+  }
+  .Dblock{
+    display: block;
+  }
+  .lawyer{
+    top: 0px;
+    bottom: 0px;
+  }
+  .optionSide{
+width: 100px;  
+}
+ .parent{
+    z-index: 999999999;
+
+    position: fixed;
+    left: 0;
+ }
+
+ .spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .spinner > div {
+    background-color: #333;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }
+
+  .meal-layer{
+    bottom: 0;
+top: 0;
+left: 0;
+right: 0;
+background:rgba(255, 255, 255, 0.7); 
+transform: translateY(120%);
+ }
+  .meal:hover .meal-layer{
+    transform: translateY(0px);
+transition-duration: 2s; }
+#inputName :hover{
+  background-color: white !important;
+}
+          
